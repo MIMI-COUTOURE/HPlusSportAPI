@@ -12,7 +12,7 @@ namespace HPlusSport.API.Models
         public decimal Price { get; set; }
         public bool IsAvailable { get; set; }
         public int CategoryId { get; set; }
-        [JsonIgnore]
+        [JsonIgnore]   
         public virtual Category Category { get; set; }
     }
 }
